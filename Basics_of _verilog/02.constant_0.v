@@ -1,5 +1,5 @@
-//Build a circuit with no inputs and one output that outputs a constant 
-module constant0(out);
-  output out;
-	assign out=1'b0;
+					//Build a circuit with no inputs and one output that outputs a constant 
+					//expected module declaration:module top_module(output zero);
+module top_module(output zero);
+	assign zero=1'b0;
 endmodule
